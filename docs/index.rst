@@ -42,42 +42,27 @@ Dev IRC: #pypa-dev
 
 其他文件和連結
 -----------------------------
+.. _virtualenv 公告:       http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
+.. _virtualenv 命令:       https://github.com/thisismedium/virtualenv-commands
+.. _VirtualenvWrapper:     https://pypi.python.org/pypi/virtualenvwrapper/
+.. _Pylons:                http://wiki.pylonshq.com/display/pylonscookbook/Using+a+Virtualenv+Sandbox
+.. _Showmedo 教學影片:     http://showmedo.com/videos/video?name=2910000&fromSeriesID=291
+.. _IPython:               https://doughellmann.com/blog/2008/02/01/ipython-and-virtualenv/
+.. _部落格文章:            https://doughellmann.com/blog/2008/05/01/virtualenvwrapper/
+.. _Pew:                   https://pypi.python.org/pypi/pew/
+.. _mod_wsgi:              http://code.google.com/p/modwsgi/wiki/VirtualEnvironments
+.. _Ian Bicking's:         http://pyvideo.org/video/568/reverse-engineering-ian-bicking--39-s-brain--insi
 
-.. _virtualenv 部落格公告: http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
-.. _Pylons: http://wiki.pylonshq.com/display/pylonscookbook/Using+a+Virtualenv+Sandbox
-.. _Showmedo 教學影片: http://showmedo.com/videos/video?name=2910000&fromSeriesID=291
-
-
-
-* `virtualenv 部落格公告`_
-* James Gardner 在 `Pylons`_ 寫了一篇有關於如何使用 virtualenv 的教學。
-* Chris Perkins 錄製一段有關於如何使用 virtualenv 的 `Showmedo 教學影片`_。
-
-* Doug Hellmann's `virtualenvwrapper`_ is a useful set of scripts to make
-  your workflow with many virtualenvs even easier. `His initial blog post on it`__.
-  He also wrote `an example of using virtualenv to try IPython`__.
-
-  .. _virtualenvwrapper: https://pypi.python.org/pypi/virtualenvwrapper/
-  .. __: https://doughellmann.com/blog/2008/05/01/virtualenvwrapper/
-  .. __: https://doughellmann.com/blog/2008/02/01/ipython-and-virtualenv/
-
-* `Pew`_ is another wrapper for virtualenv that makes use of a different
-  activation technique.
-
-  .. _Pew: https://pypi.python.org/pypi/pew/
-
-* `Using virtualenv with mod_wsgi
-  <http://code.google.com/p/modwsgi/wiki/VirtualEnvironments>`_.
-
-* `virtualenv commands
-  <https://github.com/thisismedium/virtualenv-commands>`_ for some more
-  workflow-related tools around virtualenv.
-
-* PyCon US 2011 talk: `Reverse-engineering Ian Bicking's brain: inside pip and virtualenv
-  <http://pyvideo.org/video/568/reverse-engineering-ian-bicking--39-s-brain--insi>`_.
-  By the end of the talk, you'll have a good idea exactly how pip
-  and virtualenv do their magic, and where to go looking in the source
-  for particular behaviors or bug fixes.
+* `virtualenv 公告`_
+* James Gardner 在 `Pylons`_ 寫了一篇如何使用 virtualenv 的教學文章。
+* Chris Perkins 錄製一段如何使用 virtualenv 的 `Showmedo 教學影片`_。
+* Doug Hellmann 的 virtualenvwrapper 封裝的腳本，可讓您的工作流程與使用 virtualenvs 更加輕鬆。
+  他還在 `部落格文章`_ 發表一篇嘗試使用 `IPython`_ 來執行 virtualenv 的範例。
+* `Pew`_ 是另一個 virtualenv 的封裝，使用不同的啟動技術。
+* virtualenv 如何使用 `mod_wsgi`_。 
+* 關於 virtualenv 更多工作流程相關工具的 `virtualenv 命令`_。
+* PyCon 2011 年在美國的談話：逆向工程 `Ian Bicking's`_ 的大腦：內部 pip 和 virtualenv。在談話結束之後，
+  在看完 pip 和 virtualenv 的談話及如何實現他們的做法，可能啟發一些您在修正錯誤及解決問題的方法。
 
 Compare & Contrast with Alternatives
 ------------------------------------
