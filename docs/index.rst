@@ -8,31 +8,17 @@ Virtualenv
 User IRC: #pypa
 Dev IRC: #pypa-dev
 
-Introduction
+介紹
 ------------
+``virtualenv`` 可讓一台機器建立多個虛擬獨立的 Python 環境，而互不影響，
 
-``virtualenv`` is a tool to create isolated Python environments.
+在虛擬獨立環境中 Python 是私有副本，獨立安裝自已的 packages，不會影響到系統共用的 Python。
 
-The basic problem being addressed is one of dependencies and versions,
-and indirectly permissions. Imagine you have an application that
-needs version 1 of LibFoo, but another application requires version
-2. How can you use both these applications?  If you install
-everything into ``/usr/lib/python2.7/site-packages`` (or whatever your
-platform's standard location is), it's easy to end up in a situation
-where you unintentionally upgrade an application that shouldn't be
-upgraded.
+可以有效的解決：
 
-Or more generally, what if you want to install an application *and
-leave it be*?  If an application works, any change in its libraries or
-the versions of those libraries can break the application.
-
-Also, what if you can't install packages into the global
-``site-packages`` directory?  For instance, on a shared host.
-
-In all these cases, ``virtualenv`` can help you. It creates an
-environment that has its own installation directories, that doesn't
-share libraries with other virtualenv environments (and optionally
-doesn't access the globally installed libraries either).
+#. 沒有管理員權限下安裝新套件。
+#. 不同應用程式可以使用不同的套件版本。
+#. 套件升級不影響其他應用程式。
 
 .. comment: split here
 
@@ -45,19 +31,11 @@ doesn't access the globally installed libraries either).
    development
    changes
 
-.. warning::
-
-   Python bugfix releases 2.6.8, 2.7.3, 3.1.5 and 3.2.3 include a change that
-   will cause "import random" to fail with "cannot import name urandom" on any
-   virtualenv created on a Unix host with an earlier release of Python
-   2.6/2.7/3.1/3.2, if the underlying system Python is upgraded. This is due to
-   the fact that a virtualenv uses the system Python's standard library but
-   contains its own copy of the Python interpreter, so an upgrade to the system
-   Python results in a mismatch between the version of the Python interpreter
-   and the version of the standard library. It can be fixed by removing
-   ``$ENV/bin/python`` and re-running virtualenv on the same target directory
-   with the upgraded Python.
-
+.. 警告::
+Python 2.6.8/2.7.3/3.1.5/3.2.3 修正版本中，有個會發生 "import random" 失敗，而無法匯人任何副本名稱 "cannot import name urandom" 
+如果您的 virtualenv 是建立在 Unix 主機的 Python 2.6/2.7/3.1/3.2 早期版本，在升級 Python 時將會發生上述錯誤。
+那是因為 virtualenv 使用的是系統 Python 的標準庫，而導致二者版本衝突。
+您可以移除 ``$ENV/bin/python`` 再將 virtualenv 放到升級後 Python 的相同目錄。
 Other Documentation and Links
 -----------------------------
 
