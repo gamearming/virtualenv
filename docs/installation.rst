@@ -1,19 +1,14 @@
-Installation
+安裝說明
 ============
 
 .. warning:: 
-  我們建議安裝 virtualenv-1.9 或更高版本，virtualenv 1.9 版本之前包含的 pip 都無法通過 SSL 到 PyPI 下載。
+  我們建議安裝 virtualenv-1.9 或更高版本，virtualenv 1.9 以前版本含 pip 都無法通過 SSL 到 PyPI 下載。
+
+.. warning::    
+  當使用 pip 來安裝 virtualenv 時，建議使用 pip 1.3 或更高版本，pip 1.3 以前版本，無法通過 SSL 到 PyPI 下載。
 
 .. warning::
-
-    When using pip to install virtualenv, we advise using pip 1.3 or greater.
-    Prior to version 1.3, pip did not download from PyPI over SSL.
-
-.. warning::
-
-    We advise against using easy_install to install virtualenv when using
-    setuptools < 0.9.7, because easy_install didn't download from PyPI over SSL
-    and was broken in some subtle ways.
+   使用 setuptools 0.9.7 以前版本，建議不要使用 easy_install 來安裝 virtualenv，它無法通過 SSL 到 PyPI 下載，可能會因未知原因造成中斷下載。
 
 To install globally with `pip` (if you have pip 1.3 or greater installed globally):
 
