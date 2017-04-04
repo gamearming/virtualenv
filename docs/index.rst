@@ -69,12 +69,8 @@ Dev IRC: #pypa-dev
 
 以下產品也可以建立多個虛擬獨立的 Python 環境︰
 
-* ``workingenv`` (which I do not suggest you use anymore) is the
-  predecessor to this library. It used the main Python interpreter,
-  but relied on setting ``$PYTHONPATH`` to activate the environment.
-  This causes problems when running Python scripts that aren't part of
-  the environment (e.g., a globally installed ``hg`` or ``bzr``). It
-  also conflicted a lot with Setuptools.
+* ``workingenv`` workenv 是這個程式庫的前身。主要是使用 Python 解譯器，必須設定 $PYTHONPATH 環境變數來啟動，當執行不在環境變數的 Python 腳本，
+  例如: globally 安裝的 ``hg`` 或 ``bzr``，會導致問題且與 Setuptools 衝突很多。（不建議再使用）  
 
 * `virtual-python
   <http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python>`_
