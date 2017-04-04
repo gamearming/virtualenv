@@ -1,8 +1,8 @@
 Virtualenv
 ==========
 
-`Mailing list <http://groups.google.com/group/python-virtualenv>`_ |
-`Issues <https://github.com/pypa/virtualenv/issues>`_ |
+`網上論壇 <http://groups.google.com/group/python-virtualenv>`_ |
+`相關問題 <https://github.com/pypa/virtualenv/issues>`_ |
 `Github <https://github.com/pypa/virtualenv>`_ |
 `PyPI <https://pypi.python.org/pypi/virtualenv/>`_ |
 User IRC: #pypa
@@ -44,14 +44,14 @@ Dev IRC: #pypa-dev
 -----------------------------
 
 .. _virtualenv 部落格公告: http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
+.. _Pylons: http://wiki.pylonshq.com/display/pylonscookbook/Using+a+Virtualenv+Sandbox
+.. _Showmedo 教學影片: http://showmedo.com/videos/video?name=2910000&fromSeriesID=291
+
+
+
 * `virtualenv 部落格公告`_
-
-* James Gardner has written a tutorial on using `virtualenv with
-  Pylons
-  <http://wiki.pylonshq.com/display/pylonscookbook/Using+a+Virtualenv+Sandbox>`_.
-
-* Chris Perkins created a `showmedo video including virtualenv
-  <http://showmedo.com/videos/video?name=2910000&fromSeriesID=291>`_.
+* James Gardner 在 `Pylons`_ 寫了一篇有關於如何使用 virtualenv 的教學。
+* Chris Perkins 錄製一段有關於如何使用 virtualenv 的 `Showmedo 教學影片`_。
 
 * Doug Hellmann's `virtualenvwrapper`_ is a useful set of scripts to make
   your workflow with many virtualenvs even easier. `His initial blog post on it`__.
