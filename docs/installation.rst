@@ -3,8 +3,12 @@ Installation
 
 .. warning::
 
-    We advise installing virtualenv-1.9 or greater. Prior to version 1.9, the
-    pip included in virtualenv did not download from PyPI over SSL.
+    We advise installing virtualenv-1.9 or greater. Prior to version 1.9, the pip included in virtualenv did not download from PyPI over SSL.
+我們建議安裝是 1.9 或更高版本。之前版本 1.9 pip 列入是沒有下載從 PyPI 通過 SSL。    
+我們建議安裝是 1.9 或更高版本。在版本 1.9 之前, 列入是 pip 沒有下載從 PyPI 通過 SSL。
+我們建議安裝 virtualenv-1.9 或更高版本。在版本 1.9 之前，virtualenv 中包含的 pip 沒有通過 SSL 從PyPI下載。
+我們建議安裝_virtualenv-1.9 或更高版本。之前版本 1.9，pip 包含在 _virtualenv 中沒有下載從 PyPI 通過 SSL。
+
 
 .. warning::
 
