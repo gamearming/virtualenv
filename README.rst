@@ -7,12 +7,12 @@ virtualenv 可讓一台機器建立多個虛擬獨立的 Python 環境下工作�
 .. image:: https://img.shields.io/travis/pypa/virtualenv/develop.svg  
            :target: http://travis-ci.org/pypa/virtualenv
 
-* `安裝 <https://virtualenv.pypa.io/en/latest/installation.html>`_
-* `文件 <https://virtualenv.pypa.io/>`_
-* `更改日誌 <https://virtualenv.pypa.io/en/latest/changes.html>`_
-* `問題 <https://github.com/pypa/virtualenv/issues>`_
-* `PyPI <https://pypi.python.org/pypi/virtualenv/>`_
-* `Github <https://github.com/pypa/virtualenv>`_
+* `安裝     <https://virtualenv.pypa.io/en/latest/installation.html>`_
+* `文件     <https://virtualenv.pypa.io/>`_
+* `歷程     <https://virtualenv.pypa.io/en/latest/changes.html>`_
+* `問題     <https://github.com/pypa/virtualenv/issues>`_
+* `PyPI     <https://pypi.python.org/pypi/virtualenv/>`_
+* `Github   <https://github.com/pypa/virtualenv>`_
 * `網上論壇 <http://groups.google.com/group/python-virtualenv>`_
 * `開發論壇 <http://groups.google.com/group/pypa-dev>`_
 * 用戶 IRC: #pypa on Freenode.
