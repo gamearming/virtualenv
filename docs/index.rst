@@ -75,6 +75,7 @@ Dev IRC: #pypa-dev
 
 * `virtual-python`_ 也是這個程式庫的前身。
   使用符號連結，因此無法在 Windows 上工作，也在 entire 標準程式庫和全區的 'site_packages' 符號連結，因此看不到 'site_packages' 新增的內容。
+  
   該腳本僅將標準程式庫的小部分符號連結到環境中，Windows 等只需複製這些文件即可。此外它會建立一個空或新的 ``site-packages``，
   並將全區 ``site-packages`` 新增到路徑中，以便更新追蹤。該腳本會自動安裝 Setuptools 避免了網路下載。
 
