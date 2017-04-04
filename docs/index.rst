@@ -46,14 +46,16 @@ Dev IRC: #pypa-dev
 .. _virtualenv 命令:       https://github.com/thisismedium/virtualenv-commands
 .. _VirtualenvWrapper:     https://pypi.python.org/pypi/virtualenvwrapper/
 .. _Pylons:                http://wiki.pylonshq.com/display/pylonscookbook/Using+a+Virtualenv+Sandbox
-.. _Showmedo 教學影片:     http://showmedo.com/videos/video?name=2910000&fromSeriesID=291
+.. _Showmedo 教學影片:      http://showmedo.com/videos/video?name=2910000&fromSeriesID=291
 .. _IPython:               https://doughellmann.com/blog/2008/02/01/ipython-and-virtualenv/
-.. _部落格文章:            https://doughellmann.com/blog/2008/05/01/virtualenvwrapper/
+.. _部落格文章:             https://doughellmann.com/blog/2008/05/01/virtualenvwrapper/
 .. _Pew:                   https://pypi.python.org/pypi/pew/
 .. _mod_wsgi:              http://code.google.com/p/modwsgi/wiki/VirtualEnvironments
 .. _Ian Bicking's:         http://pyvideo.org/video/568/reverse-engineering-ian-bicking--39-s-brain--insi
-.. _virtual-python:       http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python
-.. _zc.buildout:          http://pypi.python.org/pypi/zc.buildout
+
+.. _virtual-python:        http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python
+.. _zc.buildout:           http://pypi.python.org/pypi/zc.buildout
+
 
 * `virtualenv 公告`_
 * James Gardner 在 `Pylons`_ 寫了一篇如何使用 virtualenv 的教學文章。
@@ -84,3 +86,5 @@ Dev IRC: #pypa-dev
   ``zc.buildout`` 包括安裝非 Python 系統 （例如: 資料庫伺服器或 Apache） 的功能。
 
 我強烈建議一定要使用以上工具之一來開發或部署應用程式。
+
+
