@@ -43,9 +43,8 @@ Dev IRC: #pypa-dev
 其他文件和連結
 -----------------------------
 
-* `Blog announcement of virtualenv`__.
-
-  .. __: http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
+.. _virtualenv 部落格公告: http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
+* `virtualenv 部落格公告`_
 
 * James Gardner has written a tutorial on using `virtualenv with
   Pylons
