@@ -62,7 +62,7 @@ Dev IRC: #pypa-dev
 * virtualenv 如何使用 `mod_wsgi`_。 
 * 關於 virtualenv 更多工作流程相關工具的 `virtualenv 命令`_。
 * PyCon 2011 年在美國的談話：逆向工程 `Ian Bicking's`_ 的大腦：內部 pip 和 virtualenv。在談話結束之後，
-  在看完 pip 和 virtualenv 的談話及如何實現他們的做法，可能啟發一些您在修正錯誤及解決問題的方法。
+  在看完 pip 和 virtualenv 的談話及如何實現他們的做法，可能有助於您在修正錯誤及解決問題的啟發。
 
 Compare & Contrast with Alternatives
 ------------------------------------
