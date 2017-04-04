@@ -8,19 +8,6 @@ Virtualenv
 User IRC: #pypa
 Dev IRC: #pypa-dev
 
-.. _virtualenv 公告:       http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
-.. _virtualenv 命令:       https://github.com/thisismedium/virtualenv-commands
-.. _VirtualenvWrapper:     https://pypi.python.org/pypi/virtualenvwrapper/
-.. _Pylons:                http://wiki.pylonshq.com/display/pylonscookbook/Using+a+Virtualenv+Sandbox
-.. _Showmedo 教學影片:     http://showmedo.com/videos/video?name=2910000&fromSeriesID=291
-.. _IPython:               https://doughellmann.com/blog/2008/02/01/ipython-and-virtualenv/
-.. _部落格文章:            https://doughellmann.com/blog/2008/05/01/virtualenvwrapper/
-.. _Pew:                   https://pypi.python.org/pypi/pew/
-.. _mod_wsgi:              http://code.google.com/p/modwsgi/wiki/VirtualEnvironments
-.. _Ian Bicking's:         http://pyvideo.org/video/568/reverse-engineering-ian-bicking--39-s-brain--insi
-.. _virtual-python:       http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python
-.. _zc.buildout:          http://pypi.python.org/pypi/zc.buildout
-
 介紹
 ------------
 ``virtualenv`` 可讓一台機器建立多個虛擬獨立的 Python 環境，而互不影響，
@@ -55,6 +42,20 @@ Dev IRC: #pypa-dev
 
 其他文件和連結
 -----------------------------
+
+.. _virtualenv 公告:       http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
+.. _virtualenv 命令:       https://github.com/thisismedium/virtualenv-commands
+.. _VirtualenvWrapper:     https://pypi.python.org/pypi/virtualenvwrapper/
+.. _Pylons:                http://wiki.pylonshq.com/display/pylonscookbook/Using+a+Virtualenv+Sandbox
+.. _Showmedo 教學影片:     http://showmedo.com/videos/video?name=2910000&fromSeriesID=291
+.. _IPython:               https://doughellmann.com/blog/2008/02/01/ipython-and-virtualenv/
+.. _部落格文章:            https://doughellmann.com/blog/2008/05/01/virtualenvwrapper/
+.. _Pew:                   https://pypi.python.org/pypi/pew/
+.. _mod_wsgi:              http://code.google.com/p/modwsgi/wiki/VirtualEnvironments
+.. _Ian Bicking's:         http://pyvideo.org/video/568/reverse-engineering-ian-bicking--39-s-brain--insi
+.. _virtual-python:       http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python
+.. _zc.buildout:          http://pypi.python.org/pypi/zc.buildout
+
 * `virtualenv 公告`_
 * James Gardner 在 `Pylons`_ 寫了一篇如何使用 virtualenv 的教學文章。
 * Chris Perkins 錄製一段如何使用 virtualenv 的 `Showmedo 教學影片`_。
