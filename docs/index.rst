@@ -67,25 +67,16 @@ Dev IRC: #pypa-dev
  相關產品的比較與選擇
 ------------------------------------
 
+.. _virtual-python:       http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python
 以下產品也可以建立多個虛擬獨立的 Python 環境︰
 
-* ``workingenv`` workenv 是這個程式庫的前身。主要是使用 Python 解譯器，必須設定 $PYTHONPATH 環境變數來啟動，當執行不在環境變數的 Python 腳本，
+* ``workingenv`` 是這個程式庫的前身。主要是使用 Python 解譯器，必須設定 $PYTHONPATH 環境變數來啟動，當執行不在環境變數的 Python 腳本，
   例如: globally 安裝的 ``hg`` 或 ``bzr``，會導致問題且與 Setuptools 衝突很多。（不建議再使用）  
 
-* `virtual-python
-  <http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python>`_
-  is also a predecessor to this library. It uses only symlinks, so it
-  couldn't work on Windows. It also symlinks over the *entire*
-  standard library and global ``site-packages``. As a result, it
-  won't see new additions to the global ``site-packages``.
-
-  This script only symlinks a small portion of the standard library
-  into the environment, and so on Windows it is feasible to simply
-  copy these files over. Also, it creates a new/empty
-  ``site-packages`` and also adds the global ``site-packages`` to the
-  path, so updates are tracked separately. This script also installs
-  Setuptools automatically, saving a step and avoiding the need for
-  network access.
+* `virtual-python`_ 也是這個程式庫的前身。
+  使用符號連結，因此無法在 Windows 上工作，也在 entire 標準程式庫和全區的 'site_packages' 符號連結，因此看不到 'site_packages' 新增的內容。
+  該腳本僅將標準程式庫的小部分符號連結到環境中，Windows 等只需複製這些文件即可。此外它會建立一個空或新的 ``site-packages``，
+  並將全區 ``site-packages`` 新增到路徑中，以便更新追蹤。該腳本會自動安裝 Setuptools 避免了網路下載。
 
 * `zc.buildout <http://pypi.python.org/pypi/zc.buildout>`_ doesn't
   create an isolated Python environment in the same style, but
