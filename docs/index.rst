@@ -1,10 +1,9 @@
 Virtualenv
 ==========
-
-`網上論壇 <http://groups.google.com/group/python-virtualenv>`_ |
-`相關問題 <https://github.com/pypa/virtualenv/issues>`_ |
-`Github <https://github.com/pypa/virtualenv>`_ |
-`PyPI <https://pypi.python.org/pypi/virtualenv/>`_ |
+`網上論壇 <http://groups.google.com/group/python-virtualenv>`_ 
+`相關問題 <https://github.com/pypa/virtualenv/issues>`_ 
+`Github <https://github.com/pypa/virtualenv>`_ 
+`PyPI <https://pypi.python.org/pypi/virtualenv/>`_ 
 User IRC: #pypa
 Dev IRC: #pypa-dev
 
@@ -31,7 +30,7 @@ Dev IRC: #pypa-dev
    development
    changes
 
-.. Warning:: \
+.. Warning:: 
 
    Python 2.6.8/2.7.3/3.1.5/3.2.3 的修正版本中，有個會發生 "import random" 失敗，而無法匯人任何副本名稱 
    "cannot import name urandom" 的錯誤。
