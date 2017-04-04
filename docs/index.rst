@@ -30,15 +30,16 @@ Dev IRC: #pypa-dev
    reference
    development
    changes
-   
-.. warning::
 
-Python 2.6.8/2.7.3/3.1.5/3.2.3 修正版本中，有個會發生 "import random" 失敗，而無法匯人任何副本名稱 "cannot import name urandom" 
-如果您的 virtualenv 是建立在 Unix 主機的 Python 2.6/2.7/3.1/3.2 早期版本，在升級 Python 時將會發生上述錯誤。
-那是因為 virtualenv 使用的是系統 Python 的標準庫，而導致二者版本衝突。
-您可以移除 ``$ENV/bin/python`` 再將 virtualenv 放到升級後 Python 的相同目錄。
+.. 警告::
 
-Other Documentation and Links
+   Python 2.6.8/2.7.3/3.1.5/3.2.3 修正版本中，有個會發生 "import random" 失敗，而無法匯人任何副本名稱 "cannot import name urandom" 
+   如果您的 virtualenv 是建立在 Unix 主機的 Python 2.6/2.7/3.1/3.2 早期版本，在升級 Python 時將會發生上述錯誤。
+   那是因為 virtualenv 使用的是系統 Python 的標準庫，而導致二者版本衝突。
+   您可以移除 ``$ENV/bin/python`` 再將 virtualenv 放到升級後 Python 的相同目錄。
+
+
+其他文件和連結
 -----------------------------
 
 * `Blog announcement of virtualenv`__.
