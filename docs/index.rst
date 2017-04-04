@@ -53,8 +53,8 @@ Dev IRC: #pypa-dev
 * PyCon 2011 年在美國的談話：逆向工程 `Ian Bicking's`_ 的大腦：內部 pip 和 virtualenv。在談話結束之後，
   在看完 pip 和 virtualenv 的談話及如何實現他們的做法，可能有助於您在修正錯誤及解決問題的啟發。
 
- 相關產品的比較與選擇
- ------------------------------------
+相關產品的比較與選擇
+------------------------------------
 以下產品也可以建立多個虛擬獨立的 Python 環境︰
 
 * ``workingenv`` 是這個程式庫的前身。主要是使用 Python 解譯器，必須設定 $PYTHONPATH 環境變數來啟動，當執行不在環境變數的 Python 腳本，
@@ -73,7 +73,6 @@ Dev IRC: #pypa-dev
   ``zc.buildout`` 包括安裝非 Python 系統 （例如: 資料庫伺服器或 Apache） 的功能 。
 
 我強烈建議一定要使用以上工具之一來開發或部署應用程式。
-
 
 
 .. _virtualenv 公告:       http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
