@@ -55,7 +55,7 @@ Virtualenv
 * ``workingenv`` 是這個程式庫的前身。主要是使用 `Python`_ 解譯器，必須設定 $PYTHON_PATH 環境變數來啟動，當執行不在環境變數的 `Python`_ 腳本，
   例如: globally 安裝的 ``hg`` 或 ``bzr``，會導致問題且與 `Setuptools`_ 衝突很多。（不建議再使用）
 
-* `virtual-`Python`_`_ 也是這個程式庫的前身。
+* `virtual-python`_ 也是這個程式庫的前身。
   使用符號連結，因此無法在 Windows 上工作，也在 entire 標準程式庫和全區的 'site_packages' 符號連結，因此看不到 'site_packages' 新增的內容。
 
   該腳本僅將標準程式庫的小部分符號連結到環境中，Windows 等只需複製這些文件即可。此外它會建立一個空或新的 ``site-packages``，
