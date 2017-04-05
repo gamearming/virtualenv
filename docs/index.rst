@@ -1,10 +1,7 @@
 Virtualenv
 ==========
-
-`網上論壇`_ | `相關問題`_ | `Github`_ | `PyPI`_
-
-User IRC: #pypa 
-Dev IRC: #pypa-dev
+ `網上論壇`_ | `相關問題`_ | `Github`_ | `PyPI`_ 
+ User IRC: #pypa Dev IRC: #pypa-dev
 
 介紹
 ------------
@@ -73,9 +70,9 @@ Dev IRC: #pypa-dev
 
 我強烈建議一定要使用以上工具之一來開發或部署應用程式。
 
-.. `網上論壇:               http://groups.google.com/group/python-virtualenv
-.. `相關問題:               https://github.com/pypa/virtualenv/issues
-.. `Github:                https://github.com/pypa/virtualenv
+.. _網上論壇:             http://groups.google.com/group/python-virtualenv
+.. _相關問題:             https://github.com/pypa/virtualenv/issues
+.. _Github:               https://github.com/pypa/virtualenv
 .. _virtualenv 命令:       https://github.com/thisismedium/virtualenv-commands
 .. _virtualenv 公告:       http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
 .. _Pylons:                http://wiki.pylonshq.com/display/pylonscookbook/Using+a+Virtualenv+Sandbox
@@ -85,7 +82,7 @@ Dev IRC: #pypa-dev
 .. _mod_wsgi:              http://code.google.com/p/modwsgi/wiki/VirtualEnvironments
 .. _Ian Bicking's:         http://pyvideo.org/video/568/reverse-engineering-ian-bicking--39-s-brain--insi
 .. _virtual-python:        http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python
-.. `PyPI:                  https://pypi.python.org/pypi/virtualenv/
+.. _PyPI:                  https://pypi.python.org/pypi/virtualenv/
 .. _Pew:                   https://pypi.python.org/pypi/pew/
 .. _VirtualenvWrapper:     https://pypi.python.org/pypi/virtualenvwrapper/
 .. _setuptools:            https://pypi.python.org/pypi/setuptools
