@@ -38,7 +38,7 @@
 .. note::    
     ``virtualenv.py`` 腳本執行時，本地必須有 pip/setuptools/virtualenv 發佈版本，否則無法安裝。 
     
-    上述的安裝方法都必須包含完整的 pip 和 setuptools 發佈版本及 ``virtualenv_support`` 目錄才能使用 ``virtualenv.py`` 腳本安裝。
+    上述的安裝方法都需包含完整的 pip 和 setuptools 發佈版本及 ``virtualenv_support`` 目錄才能使用 ``virtualenv.py`` 腳本安裝。
 
 
     
