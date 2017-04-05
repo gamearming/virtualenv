@@ -3,7 +3,7 @@
 .. warning:: 
 #. 建議安裝 virtualenv-1.9 或更高版本，virtualenv 1.9 以前版本含 pip 都無法通過 SSL 到 PyPI 下載。
 #. 當使用 pip 來安裝 virtualenv 時，建議使用 pip 1.3 或更高版本，1.3 以前的版本，無法通過 SSL 到 PyPI 下載。
-#. 使用 setuptools 0.9.7 以前版本，請不要使用 easy_install 來安裝 virtualenv，它無法通過 SSL 到 PyPI 下載，可能會因未知原因造成中斷下載。
+#. setuptools 0.9.7 以前版本，請不要使用 easy_install 來安裝 virtualenv，它無法通過 SSL 到 PyPI 下載，可能會因未知原因造成中斷下載。
 
 使用 'pip' 全域安裝 (pip 必須是 1.3 或更高版本)：
 
@@ -17,7 +17,7 @@
 
  $ [sudo] pip install https://github.com/pypa/virtualenv/tarball/develop
 
-若要安裝版本 X.X *全域原始碼*︰
+若要安裝版本 X.X 全域原始碼︰
 
 ::
 
@@ -26,7 +26,7 @@
  $ cd virtualenv-X.X
  $ [sudo] python setup.py install
 
-使用*本地原始碼*︰
+使用本地原始碼︰
 
 ::
 
