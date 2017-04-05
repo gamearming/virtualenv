@@ -10,15 +10,14 @@
 ::
 
  $ [sudo] pip install virtualenv
-
-Or to get the latest unreleased dev version:
+ 
+  或者取得未發行的 dev 最新的版本：
 
 ::
 
  $ [sudo] pip install https://github.com/pypa/virtualenv/tarball/develop
 
-
-To install version X.X globally from source:
+若要安裝版本 X.X *全域原始碼*︰
 
 ::
 
@@ -27,8 +26,7 @@ To install version X.X globally from source:
  $ cd virtualenv-X.X
  $ [sudo] python setup.py install
 
-
-To *use* locally from source:
+使用*本地原始碼*︰
 
 ::
 
@@ -37,10 +35,11 @@ To *use* locally from source:
  $ cd virtualenv-X.X
  $ python virtualenv.py myVE
 
-.. note::
+.. note::    
+    ``virtualenv.py`` 腳本執行時，本地必須有 pip/setuptools/virtualenv 發佈版本，否則無法安裝。 
+    
+    上述的安裝方法都必須包含完整的 pip 和 setuptools 發佈版本及 ``virtualenv_support`` 目錄才能使用 ``virtualenv.py`` 腳本安裝。
 
-    The ``virtualenv.py`` script is *not* supported if run without the
-    necessary pip/setuptools/virtualenv distributions available locally. All
-    of the installation methods above include a ``virtualenv_support``
-    directory alongside ``virtualenv.py`` which contains a complete set of
-    pip and setuptools distributions, and so are fully supported.
+
+    
+    
