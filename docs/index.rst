@@ -1,6 +1,6 @@
 Virtualenv
 ==========
- `網上論壇`_ | `相關問題`_ | `Github`_ | `PyPI`_ 
+ `網上論壇`_ | `相關問題`_ | `Github`_ | `PyPI`_ |
  User IRC: #pypa Dev IRC: #pypa-dev
 
 介紹
