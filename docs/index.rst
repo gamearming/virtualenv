@@ -1,10 +1,9 @@
 Virtualenv
 ==========
-`網上論壇 <http://groups.google.com/group/python-virtualenv>`_
-`相關問題 <https://github.com/pypa/virtualenv/issues>`_
-`Github <https://github.com/pypa/virtualenv>`_
-`PyPI <https://pypi.python.org/pypi/virtualenv/>`_
-User IRC: #pypa
+
+`網上論壇`_ | `相關問題`_ | `Github`_ | `PyPI`_
+
+User IRC: #pypa 
 Dev IRC: #pypa-dev
 
 介紹
@@ -74,16 +73,21 @@ Dev IRC: #pypa-dev
 
 我強烈建議一定要使用以上工具之一來開發或部署應用程式。
 
-
-.. _virtualenv 公告:       http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
+.. `網上論壇:               http://groups.google.com/group/python-virtualenv
+.. `相關問題:               https://github.com/pypa/virtualenv/issues
+.. `Github:                https://github.com/pypa/virtualenv
 .. _virtualenv 命令:       https://github.com/thisismedium/virtualenv-commands
-.. _VirtualenvWrapper:     https://pypi.python.org/pypi/virtualenvwrapper/
+.. _virtualenv 公告:       http://blog.ianbicking.org/2007/10/10/workingenv-is-dead-long-live-virtualenv/
 .. _Pylons:                http://wiki.pylonshq.com/display/pylonscookbook/Using+a+Virtualenv+Sandbox
-.. _Showmedo 教學影片:     http://showmedo.com/videos/video?name=2910000&fromSeriesID=291
+.. _Showmedo 教學影片:      http://showmedo.com/videos/video?name=2910000&fromSeriesID=291
 .. _IPython:               https://doughellmann.com/blog/2008/02/01/ipython-and-virtualenv/
-.. _部落格文章:            https://doughellmann.com/blog/2008/05/01/virtualenvwrapper/
-.. _Pew:                   https://pypi.python.org/pypi/pew/
+.. _部落格文章:             https://doughellmann.com/blog/2008/05/01/virtualenvwrapper/
 .. _mod_wsgi:              http://code.google.com/p/modwsgi/wiki/VirtualEnvironments
 .. _Ian Bicking's:         http://pyvideo.org/video/568/reverse-engineering-ian-bicking--39-s-brain--insi
 .. _virtual-python:        http://peak.telecommunity.com/DevCenter/EasyInstall#creating-a-virtual-python
+.. `PyPI:                  https://pypi.python.org/pypi/virtualenv/
+.. _Pew:                   https://pypi.python.org/pypi/pew/
+.. _VirtualenvWrapper:     https://pypi.python.org/pypi/virtualenvwrapper/
+.. _setuptools:            https://pypi.python.org/pypi/setuptools
 .. _zc.buildout:           http://pypi.python.org/pypi/zc.buildout
+
