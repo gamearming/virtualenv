@@ -41,7 +41,7 @@ Virtualenv
 * James Gardner 在 `Pylons`_ 寫了一篇如何使用 virtualenv 的教學文章。
 * Chris Perkins 錄製一段如何使用 virtualenv 的 `Showmedo 教學影片`_。
 * Doug Hellmann 的 virtualenvwrapper 封裝的腳本，可讓您的工作流程與使用 virtualenvs 更加輕鬆。
-  他還在 `部落格文章`_ 發表一篇嘗試使用 `I`Python`_`_ 來執行 virtualenv 的範例。
+  他還在 `部落格文章`_ 發表一篇嘗試使用 `IPython`_ 來執行 virtualenv 的範例。
 * `Pew`_ 是另一個 virtualenv 的封裝，使用不同的啟動技術。
 * virtualenv 如何使用 `mod_wsgi`_。
 * 關於 virtualenv 更多工作流程相關工具的 `virtualenv 命令`_。
